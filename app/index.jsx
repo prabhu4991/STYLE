@@ -13,7 +13,7 @@ function App(){
   return(
 <ScrollView>
   <Text>
-      king is back
+      king is back soon
   </Text>
   <Button 
   title="boy"
