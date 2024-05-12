@@ -1,6 +1,7 @@
 import {Button, Image, ScrollView, Text,View} from "react-native"
 import images from "@/assets/images/ajitkumar.jpg";
 import images1 from "@/assets/images/ajitkumar1.webp";
+import images2 from "@/assets/images/THALAPATHYVIJAY.jpeg";
 function App(){
  function callbeback(){
   console.log("she is my mine");
@@ -54,9 +55,10 @@ function App(){
   style={{ width:400, height:600}}
   />
   <Image
-  source={{
-    uri:"https://i.pinimg.com/236x/0f/99/da/0f99dad358568be8e643ff89a44b914b.jpg";
-  }}
+  source=
+  {
+    images2
+  }
 style={{ width:400, height:600}}
 />
 </ScrollView>
