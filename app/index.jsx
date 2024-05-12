@@ -8,6 +8,7 @@ function App(){
  function bye(){
   console.log("king is on fire");
  }
+ 
   return(
 <ScrollView>
   <Text>
@@ -30,28 +31,34 @@ function App(){
       uri:"https://w0.peakpx.com/wallpaper/98/804/HD-wallpaper-thala-ajith-actor-billa-hero-kollywood-mankatha-tamil-ultimatestar.jpg"
 
     }}
-    style={{width:100, height:300}}
+    style={{width:400, height:600}}
   />
   <Image 
   source={images}
-  style={{ width:100, height:200}}
+  style={{ width:900, height:600}}
   />
   <Image
   source={images1}
-  style={{ width:100, height:200}}
+  style={{ width:400, height:600}}
   />
   <Image
   source={images1}
-  style={{ width:100, height:200}}
+  style={{ width:400, height:600}}
   />
   <Image
   source={images1}
-  style={{ width:100, height:200}}
+  style={{ width:400, height:600}}
   />
   <Image
   source={images1}
-  style={{ width:100, height:200}}
+  style={{ width:400, height:600}}
   />
+  <Image
+  source={{
+    uri:"https://i.pinimg.com/236x/0f/99/da/0f99dad358568be8e643ff89a44b914b.jpg";
+  }}
+style={{ width:400, height:600}}
+/>
 </ScrollView>
   );
 }
