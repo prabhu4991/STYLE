@@ -30,7 +30,7 @@ function App(){
       uri:"https://w0.peakpx.com/wallpaper/98/804/HD-wallpaper-thala-ajith-actor-billa-hero-kollywood-mankatha-tamil-ultimatestar.jpg"
 
     }}
-    style={{width:100, height:200}}
+    style={{width:100, height:300}}
   />
   <Image 
   source={images}
