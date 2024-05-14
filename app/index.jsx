@@ -1,67 +1,17 @@
-import {Button, Image, ScrollView, Text,View} from "react-native"
-import images from "@/assets/images/ajitkumar.jpg";
-import images1 from "@/assets/images/ajitkumar1.webp";
-import images2 from "@/assets/images/THALAPATHYVIJAY.jpeg";
-function App(){
- function callbeback(){
-  console.log("she is my mine");
- } 
- function bye(){
-  console.log("king is on fire");
- }
- 
-  return(
-<ScrollView>
-  <Text>
-      king is back soon
-  </Text>
-  <Button 
-  title="boy"
-  onPress={function (){
-    callbeback();
-  }}
-  />
-  <Button 
-  title="girl"
-  onPress={function (){
-    bye();
-  }}
-  />
-  <Image
-    source={{
-      uri:"https://w0.peakpx.com/wallpaper/98/804/HD-wallpaper-thala-ajith-actor-billa-hero-kollywood-mankatha-tamil-ultimatestar.jpg"
+import { Text, View } from "react-native";
+import { Image } from "react-native";
+function App() {
+  return (
+    <View>
+      <Text>hello world</Text>
 
-    }}
-    style={{width:400, height:600}}
-  />
-  <Image 
-  source={images}
-  style={{ width:900, height:600}}
-  />
-  <Image
-  source={images1}
-  style={{ width:400, height:600}}
-  />
-  <Image
-  source={images1}
-  style={{ width:400, height:600}}
-  />
-  <Image
-  source={images1}
-  style={{ width:400, height:600}}
-  />
-  <Image
-  source={images1}
-  style={{ width:400, height:600}}
-  />
-  <Image
-  source=
-  {
-    images2
-  }
-style={{ width:400, height:600}}
-/>
-</ScrollView>
+      <Image
+        source={{
+          uri: "https://t3.ftcdn.net/jpg/06/17/47/46/360_F_617474687_rqPZ5p5HxD9RZUajSDBYlffpq9PIs8oY.jpg",
+        }}
+        style={{ width: 400, height: 400 }}
+      />
+    </View>
   );
 }
 export default App;
