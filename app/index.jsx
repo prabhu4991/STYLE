@@ -1,16 +1,64 @@
-import { Text, View } from "react-native";
-import { Image } from "react-native";
-function App() {
-  return (
-    <View>
-      <Text>hello world</Text>
+import { View } from "react-native";
 
-      <Image
-        source={{
-          uri: "https://t3.ftcdn.net/jpg/06/17/47/46/360_F_617474687_rqPZ5p5HxD9RZUajSDBYlffpq9PIs8oY.jpg",
+function App() {
+
+  return (
+    <View style={{
+      width: 300,
+      height: 300,
+      backgroundColor: "red",
+      display: "flex",
+      flexDirection: "column",
+      flexWrap: "wrap",
+      gap: 4,
+      padding: 10,
+    }}
+    >
+      <View
+        style={{
+          width: 60,
+          height: 60,
+          backgroundColor: "green",
+          borderWidth: 2,
         }}
-        style={{ width: 400, height: 400 }}
-      />
+      >
+      </View>
+      <View
+        style={{
+          width: 60,
+          height: 60,
+          backgroundColor: "orange",
+          borderWidth: 2,
+        }}
+      >
+      </View>
+      <View
+    style={{
+     width: 60,
+     height: 60,
+     backgroundColor: "yellow", 
+     borderWidth: 2,
+    }}
+    >
+   </View>  
+   <View
+    style={{
+     width: 60,
+     height: 60,
+     backgroundColor: "brown",
+     borderWidth: 2,
+    }}
+    >
+   </View>  
+   <View
+    style={{
+     width: 60,
+     height: 60,
+     backgroundColor: "pink", 
+    }}
+    >
+   </View>  
+ 
     </View>
   );
 }
