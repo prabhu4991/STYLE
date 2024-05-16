@@ -57,8 +57,17 @@ function App() {
      backgroundColor: "pink", 
     }}
     >
-   </View>  
- 
+   </View> 
+
+ <View
+ style={{
+  width:60,
+  height:60,
+  backgroundColor: "black",
+ }}
+ >
+ </View>
+
     </View>
   );
 }
