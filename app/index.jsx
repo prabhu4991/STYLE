@@ -1,73 +1,33 @@
-import { View } from "react-native";
+import { View,Text } from "react-native";
 
 function App() {
 
   return (
-    <View style={{
+    <View
+    style={{
       width: 300,
       height: 300,
-      backgroundColor: "red",
-      display: "flex",
-      flexDirection: "column",
-      flexWrap: "wrap",
-      gap: 4,
+      backgroundColor:"red",
+      borderWidth: 10,
+      borderColor: "solid",
+      borderRadius: 40,
+      margin: 20,
       padding: 10,
+      
     }}
     >
-      <View
-        style={{
-          width: 60,
-          height: 60,
-          backgroundColor: "green",
-          borderWidth: 2,
-        }}
+      <Text
+      style={{
+        color:"green",
+        fontSize: 40,
+        frontWeight: 400,
+        textAlign:"center",
+        TextDecorationLine: "center",
+        letterSpacing: 1,
+      }}
       >
-      </View>
-      <View
-        style={{
-          width: 60,
-          height: 60,
-          backgroundColor: "orange",
-          borderWidth: 2,
-        }}
-      >
-      </View>
-      <View
-    style={{
-     width: 60,
-     height: 60,
-     backgroundColor: "yellow", 
-     borderWidth: 2,
-    }}
-    >
-   </View>  
-   <View
-    style={{
-     width: 60,
-     height: 60,
-     backgroundColor: "brown",
-     borderWidth: 2,
-    }}
-    >
-   </View>  
-   <View
-    style={{
-     width: 60,
-     height: 60,
-     backgroundColor: "pink", 
-    }}
-    >
-   </View> 
-
- <View
- style={{
-  width:60,
-  height:60,
-  backgroundColor: "black",
- }}
- >
- </View>
-
+        she is my mine
+      </Text>
     </View>
   );
 }
