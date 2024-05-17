@@ -1,4 +1,5 @@
-import { View,Text } from "react-native";
+import { View,Text,Image} from "react-native";
+
 
 function App() {
 
@@ -13,7 +14,6 @@ function App() {
       borderRadius: 40,
       margin: 20,
       padding: 10,
-      
     }}
     >
       <Text
@@ -30,5 +30,14 @@ function App() {
       </Text>
     </View>
   );
+  <View>
+<Image 
+source={{ 
+  uri:"https://c4.wallpaperflare.com/wallpaper/848/223/819/nature-jpg-format-download-1920x1200-wallpaper-thumb.jpg"
+}}
+style={{ width:400, height:300}}
+/>
+
+  </View>
 }
 export default App;
